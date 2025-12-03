@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a,b,c;
+cout <<"Введите высоту и сторону параллелограмма"<< endl;
+cin >>a>>b;
+if (a <= 0 || b <= 0)
+   cout <<"Cторона или высота не может быть равно или меньше 0";
+else{ 
+   c = a*b;
+   cout <<"Площадь параллелограмма:"<<c;    
+    }  
+return 0;
+}
