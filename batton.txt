@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{ int a,b;
+  cout <<"Введите 2 числа"<< endl;
+  cin >>a>>b;
+  int d = a*a + b*b;
+  cout <<"Сумма квадратов чисел равна:"<<d;
+  return 0;
+}
